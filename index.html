@@ -18,14 +18,14 @@
   
       <div class="container mt-3">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-pill">
-            <a class="navbar-brand" href="#"> <img src="assets/Majime Lgo 3 1.png" width="60px" alt=""></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-pill shadow">
+            <a class="navbar-brand" href="#"> <img src="assets/Majime Lgo 3 1.png" width="70px" alt="" class="ml-3"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav ml-auto">
-                <a class="nav-link active" href="#">Beranda <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
                 <a class="nav-link" href="#">Tentang Kami</a>
                 <a class="nav-link" href="#">Program</a>
                 <a class="nav-link" href="#">Galeri</a>
@@ -39,16 +39,34 @@
 
     <!-- Jumbotron -->
     
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid background">
         <div class="container">
             <div class="row">
                 <div class="col-5">
                     <h1 class="display-4">Selamat Datang di</h1>
-                    <p class="majime"> <span class="warna">LPK</span> MajimeIndonesia</p>
+                    <p class="majime">LPK <span id="warna">MaJimeIndonesia</span></p>
                     <p class="lead">"Bersama Mengapai Cita-Cita"</p>
+                    <p>
+                      <a class="btn btn-primary" data-toggle="collapse" href="#daftarSekarang" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Daftar Sekarang
+                      </a>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pelajariDahulu" aria-expanded="false" aria-controls="collapseExample">
+                        Pelajari Dahulu
+                      </button>
+                    </p>
+                    <div class="collapse" id="daftarSekarang">
+                      <div class="card card-body">
+                        Silahkan mengisi formulir dan mengupulkan berkas ke alamat email admin@majimeindonesia.com
+                      </div>
+                    </div>
+                    <div class="collapse" id="pelajariDahulu">
+                      <div class="card card-body">
+                        Silahkan menghubungi kami melali WA 080808088080 atau email ke alamat info@majimeindonesia.com. bisa juga datang langsung ke alamat kami.
+                      </div>
+                    </div>
                 </div>
                 <div class="col-7">
-                    <div class="card border-primary mb-3">
+                    <div class="card border-primary mb-3 shadow video">
                         <div class="embed-responsive embed-responsive-4by3">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
                         </div>

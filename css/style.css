@@ -10,6 +10,14 @@
     margin-right: 20px;
 }
 
+
+.nav-link:hover {
+    top: -40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 10px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    color: blue !important;
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -17,6 +25,15 @@
     background-color: #F1F1F1;
     margin-top: -80px;
     font-family: Sulphur Point;
+}
+
+.background {
+    background-image: url("/assets/Group\ 12-3.png");
+    height: 620px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .jumbotron .display-4 {
@@ -27,9 +44,11 @@
 }
 
 .majime {
-    font-size: 48px;
+    font-size: 45px;
     text-align: center;
     margin-bottom: -10px;
+    color: red;
+
 }
 
 .lead {
@@ -38,11 +57,28 @@
     margin-bottom: -10px;
 }
 
-.warna {
-    color: red;
+#warna {
+
+    background: linear-gradient(to top, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
-.card {
-    margin-top: 130px;
-    height: 240px;
+.video {
+    margin-top: 100px;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    left: 100px;
+    border: 20px solid white !important;
+
+}
+
+.btn {
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: -65px;
+    margin-left: 70px;
+
 }
